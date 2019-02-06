@@ -6,7 +6,7 @@
 		"/home/steinum/Guardian-of-the-Galaxy/Galaxy"
 	],
 	"last_version": 3176,
-	"last_window_id": 8,
+	"last_window_id": 9,
 	"log_indexing": false,
 	"settings":
 	{
@@ -338,8 +338,28 @@
 						"PackageResourceViewer: Open Resource"
 					],
 					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"fastolympic",
+						"FastOlympicCoding: Run"
+					],
+					[
+						"fast",
+						"FastOlympicCoding: Select Frame"
+					],
+					[
+						"run",
+						"FastOlympicCoding: Run"
+					],
+					[
 						"install",
 						"Package Control: Install Package"
+					],
+					[
+						"remoe",
+						"Package Control: Remove Package"
 					],
 					[
 						"insta",
@@ -413,10 +433,25 @@
 			},
 			"file_history":
 			[
+				"/home/steinum/.config/sublime-text-3/Packages/User/my_cpp.sublime-build",
+				"/home/steinum/idne/1106-c++11/A/455b.cpp",
+				"/home/steinum/idne/1106-c++11/A/A.cpp",
+				"/home/steinum/Downloads/TRIE.CPP",
+				"/home/steinum/Documents/my_code/1106B.cpp",
+				"/home/steinum/Documents/my_code/1106A.cpp",
+				"/home/steinum/756A/756A.cpp",
+				"/home/steinum/cf.py",
+				"/home/steinum/idne/1106-c++11/A.cpp",
+				"/home/steinum/idne/template.cpp",
+				"/home/steinum/idne/utils/config.py",
+				"/home/steinum/Documents/my_code/adjLISTwithWeight.cpp",
+				"/home/steinum/.config/sublime-text-3/Packages/User/Trie.sublime-snippet",
+				"/home/steinum/.config/sublime-text-3/Packages/Auto Hide Sidebar/AutoHideSidebar.py",
+				"/home/steinum/.config/sublime-text-3/Packages/Auto Hide Sidebar/README.md",
+				"/home/steinum/.config/sublime-text-3/Packages/Auto Hide Sidebar/package-metadata.json",
 				"/home/steinum/.config/sublime-text-3/Packages/User/Side Bar.sublime-settings",
 				"/home/steinum/.config/sublime-text-3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
 				"/home/steinum/.config/sublime-text-3/Packages/User/header.sublime-snippet",
-				"/home/steinum/.config/sublime-text-3/Packages/User/Trie.sublime-snippet",
 				"/home/steinum/Documents/my_code/test.java",
 				"/home/steinum/Documents/my_code/trie.cpp",
 				"/home/steinum/Documents/my_code/string.cpp",
@@ -478,7 +513,6 @@
 				"/home/steinum/Millantis_Game/millantis.cpp",
 				"/home/steinum/Documents/my_code/test2.cpp",
 				"/home/steinum/Fun-Game/main.cpp",
-				"/home/steinum/.config/sublime-text-3/Packages/User/my_cpp.sublime-build",
 				"/home/steinum/FourWheelerRacing/main/java.cpp",
 				"/home/steinum/project-2-Game/Sfml project/Bala3.cpp",
 				"/home/steinum/FourWheelerRacing/main/life.cpp",
@@ -526,20 +560,7 @@
 				"/home/steinum/Project-2-Track-Mania/main.cpp",
 				"/home/steinum/Andropple/main.cpp",
 				"/home/steinum/sfml-hulk-game/pulock/main.cpp",
-				"/home/steinum/sfml-hulk-game/pulock/menu.cpp",
-				"/home/steinum/FourWheelerRacing/main/RM.sh",
-				"/home/steinum/Guardians-of-the-Galaxy/Guardians-of-the-Galaxy/main.cpp",
-				"/home/steinum/FourWheelerRacing/main/points.cpp",
-				"/home/steinum/Guardians-of-the-Galaxy/ConsoleApplication1/ConsoleApplication1/main.cpp",
-				"/home/steinum/.config/sublime-text-3/Packages/C++/C++ Single File.sublime-build",
-				"/home/steinum/Documents/my_code/test3.cpp",
-				"/home/steinum/Downloads/FourWheelerRacing-master/main/game.cpp",
-				"/home/steinum/Downloads/Project-2-GAME--master/game.cpp",
-				"/media/steinum/FEA61C3AA61BF23F/Users/IICT/Documents/k.cpp",
-				"/media/steinum/FEA61C3AA61BF23F/Users/IICT/Documents/g.cpp",
-				"/media/steinum/FEA61C3AA61BF23F/Users/IICT/Documents/f.cpp",
-				"/media/steinum/FEA61C3AA61BF23F/Users/IICT/Documents/a.cpp",
-				"/media/steinum/FEA61C3AA61BF23F/Users/IICT/Documents/c.cpp"
+				"/home/steinum/sfml-hulk-game/pulock/menu.cpp"
 			],
 			"find":
 			{
@@ -558,6 +579,9 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"true",
+					"x",
+					"auto",
 					"// ",
 					"'a'",
 					"trie",
@@ -682,10 +706,7 @@
 					"hea[i].rotate(180);",
 					"hea[i].scale(-0.5,-0.5);",
 					"setPosition(50,40)",
-					"setPosition",
-					"framerate",
-					"0.5",
-					"}"
+					"setPosition"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -781,9 +802,9 @@
 				"width": 0.0
 			},
 			"show_minimap": true,
-			"show_open_files": false,
+			"show_open_files": true,
 			"show_tabs": true,
-			"side_bar_visible": true,
+			"side_bar_visible": false,
 			"side_bar_width": 150.0,
 			"status_bar_visible": true,
 			"template_settings":
@@ -1029,57 +1050,27 @@
 			"buffers":
 			[
 				{
-					"contents": "",
-					"file": "/home/steinum/Documents/my_code/testauto.cpp",
-					"file_size": 719,
-					"file_write_time": 131934105002233129,
+					"file": "/home/steinum/Documents/my_code/455b.cpp",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 3099,
+						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"contents": "{\"url\": \"https://github.com/xunker/AutoHideSidebar\", \"platforms\": [\"*\"], \"version\": \"1.0.1\", \"sublime_text\": \"*\", \"dependencies\": [], \"description\": \"Automatically hide and show the Sublime Text 3 sidebar with this plugin\"}",
-					"file": "/home/steinum/.config/sublime-text-3/Packages/Auto Hide Sidebar/package-metadata.json",
-					"file_size": -1,
-					"file_write_time": -1,
+					"file": "/home/steinum/Documents/my_code/6a.cpp",
 					"settings":
 					{
-						"buffer_size": 223,
-						"line_ending": "Unix",
-						"scratch": true
-					}
-				},
-				{
-					"contents": "# Automatically hide the sidebar after the file in the current view is\n# modified XX times (default 5).\n#\n# Much code borrowed from SyncedSideBar: https://github.com/sobstel/SyncedSideBar\nimport sublime, sublime_plugin\n\nPLUGIN_NAME = 'AutoHideSidebar'\n\n# assume sidebar is visible by default on every window (there's no way to check, unfortunately)\nDEFAULT_VISIBILITY = True\nwindowSidebarVisible = {}\n\nCHANGE_COUNT_TRIGGER_KEY = 'hide_sidebar_change_count_trigger'\nchange_count_trigger = 10 # default, can be changed in prefs with above key\nchange_counter = 0\n\n# preferences key, default value/current calue\nbehaviours = {\n  'show_sidebar_on_activated': True,\n  'show_sidebar_on_new': True,\n  'show_sidebar_on_clone': True,\n  'show_sidebar_on_load': True,\n  'show_sidebar_on_save': True,\n  'show_sidebar_on_close': True,\n  'autohide_sidebar_verbose_logging': False\n}\n\ndef shouldTrigger(pref_key):\n  global behaviours\n  return not not behaviours[pref_key]\n\ndef log(msg):\n  if shouldTrigger('autohide_sidebar_verbose_logging'):\n    named_print(msg)\n\ndef named_print(msg):\n  print(\"%s: %s\" % (PLUGIN_NAME, msg))\n\ndef plugin_loaded():\n  s = sublime.load_settings('%s.sublime-settings' % PLUGIN_NAME)\n\n  def read_pref():\n    log(\"reading prefs\")\n    settings = sublime.load_settings(\"Preferences.sublime-settings\")\n\n    global change_count_trigger\n    if settings.get(CHANGE_COUNT_TRIGGER_KEY):\n      change_count_trigger = int(settings.get(CHANGE_COUNT_TRIGGER_KEY))\n      log(\"%s: %i\" % (CHANGE_COUNT_TRIGGER_KEY, change_count_trigger))\n    else:\n      log(\"using default %s: %i\" % (CHANGE_COUNT_TRIGGER_KEY, change_count_trigger))\n\n    global behaviours\n    for index, pref_key in enumerate(behaviours.keys()):\n      if settings.get(pref_key) == None:\n        log(\"using default %s: %s\" % (pref_key, behaviours[pref_key]))\n      else:\n        behaviours[pref_key] = not not settings.get(pref_key)\n        log(\"using user preference for %s: %s\" % (pref_key, behaviours[pref_key]))\n\n  # read initial setting\n  read_pref()\n\n# ST2 backwards compatibility\nif (int(sublime.version()) < 3000):\n    plugin_loaded()\n\nclass AutoHideSidebarListener(sublime_plugin.EventListener):\n  def on_modified_async(self, view):\n    # crufty way to detect if sidebar can even be shown\n    if view.window() and len(view.window().folders()) > 0:\n      if not view.window().id() in windowSidebarVisible:\n        windowSidebarVisible[view.window().id()] = DEFAULT_VISIBILITY\n      if windowSidebarVisible[view.window().id()]:\n        global change_counter\n        change_counter += 1\n        log(\"change_counter: %i/%i\" % (change_counter, change_count_trigger))\n        if change_counter == change_count_trigger:\n          log(\"change_counter reached maximum of %i.\" % change_count_trigger)\n          self.hide_sidebar(view)\n      else:\n        log(\"Sidebar already hidden\")\n\n  def on_activated_async(self, view):\n    if shouldTrigger('show_sidebar_on_activated'):\n      self.show_sidebar_and_reset_count(view)\n\n  def on_new_async(self, view):\n    if shouldTrigger('show_sidebar_on_new'):\n      self.show_sidebar_and_reset_count(view)\n\n  def on_clone_async(self, view):\n    if shouldTrigger('show_sidebar_on_clone'):\n      self.show_sidebar_and_reset_count(view)\n\n  def on_load_async(self, view):\n    if shouldTrigger('show_sidebar_on_load'):\n      self.show_sidebar_and_reset_count(view)\n\n  def on_pre_save_async(self, view):\n    if shouldTrigger('show_sidebar_on_save'):\n      self.show_sidebar_and_reset_count(view)\n\n  def on_close(self, view):\n    if shouldTrigger('show_sidebar_on_close'):\n      self.show_sidebar_and_reset_count(view)\n\n  def show_sidebar_and_reset_count(self, view):\n    self.reset_count()\n    self.show_sidebar(view)\n\n  def reset_count(self):\n    log(\"Resetting counter to zero (trigger is %i)\" % change_count_trigger)\n    global change_counter\n    change_counter = 0\n\n  def hide_sidebar(self, view):\n    if not view.window().id() in windowSidebarVisible:\n      windowSidebarVisible[view.window().id()] = DEFAULT_VISIBILITY\n    if windowSidebarVisible[view.window().id()]:\n      if view.window():\n        log(\"Hiding sidebar\")\n        view.window().run_command(\"toggle_side_bar\")\n      else:\n        log(\"No window, can't show sidebar\")\n    else:\n      log(\"Sidebar already hidden\")\n\n  def show_sidebar(self, view):\n    if view.window():\n      if not view.window().id() in windowSidebarVisible:\n        windowSidebarVisible[view.window().id()] = DEFAULT_VISIBILITY\n      if windowSidebarVisible[view.window().id()]:\n        log(\"Sidebar already visible\")\n      else:\n        if view.window():\n          log(\"Showing sidebar\")\n          view.window().run_command(\"toggle_side_bar\")\n        else:\n          log(\"No window, can't show sidebar\")\n    else:\n      log(\"No window, can't show sidebar\")\n\n  def on_window_command(self, window, command_name, args):\n    # crufty way to detect if sidebar can even be shown\n    if len(window.folders()) > 0:\n      if command_name == \"toggle_side_bar\":\n        global windowSidebarVisible\n        if not window.id() in windowSidebarVisible:\n          windowSidebarVisible[window.id()] = DEFAULT_VISIBILITY\n\n        log(\"toggle_side_bar command reported\")\n        windowSidebarVisible[window.id()] = not windowSidebarVisible[window.id()]\n        log(\"sidebarVisible: %s\" % windowSidebarVisible[window.id()])\n\n        self.reset_count()\n",
-					"file": "/home/steinum/.config/sublime-text-3/Packages/Auto Hide Sidebar/AutoHideSidebar.py",
-					"file_size": -1,
-					"file_write_time": -1,
-					"settings":
-					{
-						"buffer_size": 5366,
-						"line_ending": "Unix",
-						"scratch": true
-					}
-				},
-				{
-					"contents": "AutoHideSidebar\n===============\n\nAutoHideSidebar is a [Sublime Text 3](http://www.sublimetext.com/) package that\nwill automatically hide and show the sidebar as you type, save and navigate.\nUntested with ST2, but may work too.\n\nAutoHideSidebar watches for modifications on the currently open file. After the\ncurrent file is modified by a certain number of keystrokes (defaults to 10)\nthe sidebar will automatically hide.\n\nOnce the sidebar is hidden, it will automatically be shown when:\n\n* The current file is saved.\n* A file is loaded or cloned.\n* A new tab is opened.\n* An open tab is closed.\n* The Current active tab changes.\n* The app gains or loses focus.\n\nOnly keystrokes that add, remove or change text in the current tab (\"change\"\nkeystrokes) will hide the sidebar. Other keystrokes, such arrow keys, will not\ncause the sidebar to hide.\n\nInstallation\n------------\n\nPlugin is not yet in package management, so you will need to `git clone` the\nrepo in to your ST3 directory for now.\n\nConfiguration\n-------------\n\nThe default behaviour can be overridden by settings in your preferences:\n\n#### hide_sidebar_change_count_trigger\n\nThe number of change keystrokes required before the sidebar automatically\nhides.  The default is `10`. It can be changed like this:\n\n```json\n{ \"hide_sidebar_change_count_trigger\": 5 }\n```\n\nNow the sidebar will hide after 5 change keystrokes.\n\n#### show_sidebar_on_activated\n\nIf the sidebar is hidden, automatically show it when a file/tab gains focus.\nThis will trigger when the currently open tab changes or when the app window\nitself gains or loses focus. Default is `true`, can be changed like this:\n\n```json\n{ \"show_sidebar_on_activated\": false }\n```\n\nNow the sidebar will not automatically show when focus changes.\n\n#### show_sidebar_on_new\n\nIf the sidebar is hidden, automatically show it when a new file is created\nwith File Menu -> New File or Command-N/Super-N/Ctrl-N. Default is `true`, can\nbe changed like this:\n\n```json\n{ \"show_sidebar_on_new\": false }\n```\n\nNow the sidebar will not automatically show when a new file is created.\n\n#### show_sidebar_on_clone\n\nIf the sidebar is hidden, automatically show it when a clone is created\nfrom a file. Default is `true`, can be changed like this:\n\n```json\n{ \"show_sidebar_on_clone\": false }\n```\n\nNow the sidebar will not automatically show when a file is cloned.\n\n#### show_sidebar_on_load\n\nIf the sidebar is hidden, automatically show it when a file is loaded\nwith File Menu -> Open or Command-T/Super-T/Ctrl-T. Default is `true`, can\nbe changed like this:\n\n```json\n{ \"show_sidebar_on_load\": false }\n```\n\nNow the sidebar will not automatically show when a new file is created.\n\n#### show_sidebar_on_save\n\nIf the sidebar is hidden, automatically show it when a file is saved with\nFile Menu -> Save or Command-S/Super-S/Ctrl-S or when \"save_on_focus_lost\" is\ntriggered. Default is `true`, can be changed like this:\n\n```json\n{ \"show_sidebar_on_save\": false }\n```\n\nNow the sidebar will not automatically show when a file is saved.\n\n#### show_sidebar_on_close\n\nIf the sidebar is hidden, automatically show it when an open file is closed with\nFile Menu -> Close File or Command-W/Ctrl-F4. Default is `true`, can be\nchanged like this:\n\n```json\n{ \"show_sidebar_on_close\": false }\n```\n\nNow the sidebar will not automatically show when a file is closed.\n\n####  autohide_sidebar_verbose_logging\n\nToggle event and debugging messages being written to the console. Default is\n`false`, can be changed like this:\n\n```json\n{ \"autohide_sidebar_verbose_logging\": true }\n```\n\nChangelog\n---------\n\n*1.0.1*, Jan 15, 2016*\n\nFixed errant logging message that would print to the console regardless of the\nvalue of `autohide_sidebar_verbose_logging`.\n\nAdded documentation on the `autohide_sidebar_verbose_logging` config option.\n\n*1.0*, *July 31, 2014*\n\nInitial release.\n\nCredit\n------\n\nParts of this code are borrowed or based on Przemek Sobstel's\n[SyncedSideBar](https://github.com/sobstel/SyncedSideBar) package.\n\nLicense\n-------\n\nGNU GENERAL PUBLIC LICENSE v2.0",
-					"file": "/home/steinum/.config/sublime-text-3/Packages/Auto Hide Sidebar/README.md",
-					"file_size": -1,
-					"file_write_time": -1,
-					"settings":
-					{
-						"buffer_size": 4027,
-						"line_ending": "Unix",
-						"scratch": true
+						"buffer_size": 1344,
+						"line_ending": "Unix"
 					}
 				},
 				{
 					"file": "/home/steinum/Documents/my_code/input.txt",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 45,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -1088,13 +1079,12 @@
 					"file": "/home/steinum/Documents/my_code/output.txt",
 					"settings":
 					{
-						"buffer_size": 2,
-						"encoding": "UTF-8",
+						"buffer_size": 52,
 						"line_ending": "Unix"
 					}
 				}
 			],
-			"build_system": "Packages/User/my_java.sublime-build",
+			"build_system": "Packages/User/my_cpp.sublime-build",
 			"build_system_choices":
 			[
 				[
@@ -1186,12 +1176,36 @@
 				"selected_items":
 				[
 					[
+						"ope",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
 						"open",
 						"PackageResourceViewer: Open Resource"
 					],
 					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"fastolympic",
+						"FastOlympicCoding: Run"
+					],
+					[
+						"fast",
+						"FastOlympicCoding: Select Frame"
+					],
+					[
+						"run",
+						"FastOlympicCoding: Run"
+					],
+					[
 						"install",
 						"Package Control: Install Package"
+					],
+					[
+						"remoe",
+						"Package Control: Remove Package"
 					],
 					[
 						"insta",
@@ -1265,14 +1279,39 @@
 			},
 			"expanded_folders":
 			[
+				"/home/steinum/Documents/my_code"
 			],
 			"file_history":
 			[
+				"/home/steinum/Documents/my_code/loj1269.cpp",
+				"/home/steinum/Documents/my_code/6a.cpp",
+				"/home/steinum/Documents/my_code/spojdict.cpp",
+				"/home/steinum/FourWheelerRacing/main/game.cpp",
+				"/home/steinum/Documents/my_code/455B.cpp",
+				"/home/steinum/.config/sublime-text-3/Packages/User/SFML251.sublime-build",
+				"/home/steinum/.config/sublime-text-3/Packages/Python/Python.sublime-build",
+				"/home/steinum/.config/sublime-text-3/Packages/User/my_java.sublime-build",
+				"/home/steinum/.config/sublime-text-3/Packages/User/sout.sublime-snippet",
+				"/home/steinum/Documents/my_code/test.java",
+				"/home/steinum/.config/sublime-text-3/Packages/User/my_cpp.sublime-build",
+				"/home/steinum/.config/sublime-text-3/Packages/User/header.sublime-snippet",
+				"/home/steinum/idne/1106-c++11/A/455b.cpp",
+				"/home/steinum/idne/1106-c++11/A/A.cpp",
+				"/home/steinum/Downloads/TRIE.CPP",
+				"/home/steinum/Documents/my_code/1106B.cpp",
+				"/home/steinum/Documents/my_code/1106A.cpp",
+				"/home/steinum/756A/756A.cpp",
+				"/home/steinum/cf.py",
+				"/home/steinum/idne/1106-c++11/A.cpp",
+				"/home/steinum/idne/template.cpp",
+				"/home/steinum/idne/utils/config.py",
+				"/home/steinum/Documents/my_code/adjLISTwithWeight.cpp",
+				"/home/steinum/.config/sublime-text-3/Packages/User/Trie.sublime-snippet",
+				"/home/steinum/.config/sublime-text-3/Packages/Auto Hide Sidebar/AutoHideSidebar.py",
+				"/home/steinum/.config/sublime-text-3/Packages/Auto Hide Sidebar/README.md",
+				"/home/steinum/.config/sublime-text-3/Packages/Auto Hide Sidebar/package-metadata.json",
 				"/home/steinum/.config/sublime-text-3/Packages/User/Side Bar.sublime-settings",
 				"/home/steinum/.config/sublime-text-3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
-				"/home/steinum/.config/sublime-text-3/Packages/User/header.sublime-snippet",
-				"/home/steinum/.config/sublime-text-3/Packages/User/Trie.sublime-snippet",
-				"/home/steinum/Documents/my_code/test.java",
 				"/home/steinum/Documents/my_code/trie.cpp",
 				"/home/steinum/Documents/my_code/string.cpp",
 				"/home/steinum/FourWheelerRacing/main/pathor.cpp",
@@ -1280,12 +1319,8 @@
 				"/home/steinum/Documents/my_code/install.sh",
 				"/home/steinum/Documents/my_code/sfml.sh",
 				"/home/steinum/FourWheelerRacing/main/pathor.h",
-				"/home/steinum/FourWheelerRacing/main/game.cpp",
 				"/home/steinum/Documents/my_code/test.py",
-				"/home/steinum/.config/sublime-text-3/Packages/Python/Python.sublime-build",
 				"/home/steinum/Documents/my_code/new.java",
-				"/home/steinum/.config/sublime-text-3/Packages/User/my_java.sublime-build",
-				"/home/steinum/.config/sublime-text-3/Packages/User/SFML251.sublime-build",
 				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/main.cpp",
 				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/GameMapMaker.h",
 				"/home/steinum/Guardian-of-the-Galaxy/Galaxy/Enemy.cpp",
@@ -1333,7 +1368,6 @@
 				"/home/steinum/Millantis_Game/millantis.cpp",
 				"/home/steinum/Documents/my_code/test2.cpp",
 				"/home/steinum/Fun-Game/main.cpp",
-				"/home/steinum/.config/sublime-text-3/Packages/User/my_cpp.sublime-build",
 				"/home/steinum/FourWheelerRacing/main/java.cpp",
 				"/home/steinum/project-2-Game/Sfml project/Bala3.cpp",
 				"/home/steinum/FourWheelerRacing/main/life.cpp",
@@ -1376,29 +1410,11 @@
 				"/home/steinum/MotoRush/experiment.cpp",
 				"/home/steinum/1-2-Project---Quest-Ball/Collision.cpp",
 				"/home/steinum/1-2-Project---Quest-Ball/main.cpp",
-				"/home/steinum/1-2-Project---Quest-Ball/header/gameee.hpp",
-				"/home/steinum/1-2-Project---Quest-Ball/header/Collision.h",
-				"/home/steinum/Project-2-Track-Mania/main.cpp",
-				"/home/steinum/Andropple/main.cpp",
-				"/home/steinum/sfml-hulk-game/pulock/main.cpp",
-				"/home/steinum/sfml-hulk-game/pulock/menu.cpp",
-				"/home/steinum/FourWheelerRacing/main/RM.sh",
-				"/home/steinum/Guardians-of-the-Galaxy/Guardians-of-the-Galaxy/main.cpp",
-				"/home/steinum/FourWheelerRacing/main/points.cpp",
-				"/home/steinum/Guardians-of-the-Galaxy/ConsoleApplication1/ConsoleApplication1/main.cpp",
-				"/home/steinum/.config/sublime-text-3/Packages/C++/C++ Single File.sublime-build",
-				"/home/steinum/Documents/my_code/test3.cpp",
-				"/home/steinum/Downloads/FourWheelerRacing-master/main/game.cpp",
-				"/home/steinum/Downloads/Project-2-GAME--master/game.cpp",
-				"/media/steinum/FEA61C3AA61BF23F/Users/IICT/Documents/k.cpp",
-				"/media/steinum/FEA61C3AA61BF23F/Users/IICT/Documents/g.cpp",
-				"/media/steinum/FEA61C3AA61BF23F/Users/IICT/Documents/f.cpp",
-				"/media/steinum/FEA61C3AA61BF23F/Users/IICT/Documents/a.cpp",
-				"/media/steinum/FEA61C3AA61BF23F/Users/IICT/Documents/c.cpp"
+				"/home/steinum/1-2-Project---Quest-Ball/header/gameee.hpp"
 			],
 			"find":
 			{
-				"height": 22.0
+				"height": 39.0
 			},
 			"find_in_files":
 			{
@@ -1413,6 +1429,16 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"a",
+					"f",
+					"a",
+					"cout",
+					"curr->val",
+					"even",
+					"del",
+					"true",
+					"x",
+					"auto",
 					"// ",
 					"'a'",
 					"trie",
@@ -1530,17 +1556,7 @@
 					"501.0",
 					"511.5",
 					"500",
-					"rotate(90);",
-					"rotate(180);",
-					"scale(0.5,0.5)",
-					"hea[i].setPosition(500,400);",
-					"hea[i].rotate(180);",
-					"hea[i].scale(-0.5,-0.5);",
-					"setPosition(50,40)",
-					"setPosition",
-					"framerate",
-					"0.5",
-					"}"
+					"rotate(90);"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -1566,16 +1582,44 @@
 			"groups":
 			[
 				{
-					"selected": 3,
+					"selected": 1,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"file": "/home/steinum/Documents/my_code/testauto.cpp",
+							"file": "/home/steinum/Documents/my_code/455b.cpp",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 0,
+								"buffer_size": 3099,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										329,
+										329
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/C++/C++.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 156.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/steinum/Documents/my_code/6a.cpp",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1344,
 								"regions":
 								{
 								},
@@ -1588,100 +1632,11 @@
 								],
 								"settings":
 								{
-									"syntax": "Packages/C++/C++.sublime-syntax"
+									"syntax": "Packages/C++/C++.sublime-syntax",
+									"translate_tabs_to_spaces": false
 								},
 								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 3,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/home/steinum/.config/sublime-text-3/Packages/Auto Hide Sidebar/package-metadata.json",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 223,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										223,
-										223
-									]
-								],
-								"settings":
-								{
-									"buffer_empty": false,
-									"create_dir": true,
-									"syntax": "Packages/JavaScript/JSON.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 2,
-							"type": "text"
-						},
-						{
-							"buffer": 2,
-							"file": "/home/steinum/.config/sublime-text-3/Packages/Auto Hide Sidebar/AutoHideSidebar.py",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 5366,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										5366,
-										5366
-									]
-								],
-								"settings":
-								{
-									"buffer_empty": false,
-									"create_dir": true,
-									"syntax": "Packages/Python/Python.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"type": "text"
-						},
-						{
-							"buffer": 3,
-							"file": "/home/steinum/.config/sublime-text-3/Packages/Auto Hide Sidebar/README.md",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 4027,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										1314,
-										1276
-									]
-								],
-								"settings":
-								{
-									"buffer_empty": false,
-									"create_dir": true,
-									"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 117.0,
+								"translation.y": 468.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
@@ -1694,12 +1649,48 @@
 					"sheets":
 					[
 						{
-							"buffer": 4,
+							"buffer": 2,
 							"file": "/home/steinum/Documents/my_code/input.txt",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 0,
+								"buffer_size": 45,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										39,
+										39
+									]
+								],
+								"settings":
+								{
+									"history_list_is_closing": true,
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						}
+					]
+				},
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 3,
+							"file": "/home/steinum/Documents/my_code/output.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 52,
 								"regions":
 								{
 								},
@@ -1714,41 +1705,6 @@
 								{
 									"history_list_is_closing": true,
 									"syntax": "Packages/Text/Plain text.tmLanguage",
-									"translate_tabs_to_spaces": false
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 5,
-							"type": "text"
-						}
-					]
-				},
-				{
-					"selected": 0,
-					"sheets":
-					[
-						{
-							"buffer": 5,
-							"file": "/home/steinum/Documents/my_code/output.txt",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 2,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage",
 									"tab_size": 4,
 									"translate_tabs_to_spaces": true
 								},
@@ -1756,7 +1712,7 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 4,
+							"stack_index": 3,
 							"type": "text"
 						}
 					]
@@ -1796,7 +1752,7 @@
 				"cols":
 				[
 					0.0,
-					0.790407833045,
+					0.667307978693,
 					1.0
 				],
 				"rows":
@@ -1834,16 +1790,20 @@
 				"selected_items":
 				[
 					[
+						"test",
+						"test.java"
+					],
+					[
+						"java",
+						"test.java"
+					],
+					[
 						"in",
 						"install.sh"
 					],
 					[
 						"player",
 						"Galaxy/Player.h"
-					],
-					[
-						"java",
-						"test.java"
 					],
 					[
 						".java",
@@ -1904,9 +1864,9 @@
 				]
 			},
 			"show_minimap": true,
-			"show_open_files": false,
+			"show_open_files": true,
 			"show_tabs": true,
-			"side_bar_visible": true,
+			"side_bar_visible": false,
 			"side_bar_width": 150.0,
 			"status_bar_visible": true,
 			"template_settings":
